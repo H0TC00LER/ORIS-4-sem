@@ -6,8 +6,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/list' element={<DogsListPage/>}/>
-        <Route path='/list/:id' element={<DogInformationPage/>}/>
+        <Route path='/' element={<DogsListPage/>}/>
+        <Route path='/:id' element={<DogInformationPage/>}/>
       </Routes>
     </BrowserRouter>
   );
